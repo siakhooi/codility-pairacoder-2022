@@ -1,10 +1,10 @@
-# Codility Challenge: <Challenge Name>
+# Codility Challenge: Pair a Coder 2022
 
 ## <Task Name>
 
 - Difficulty: <Difficulty>
 - <Description>
-- <challenge-url>
+- <https://app.codility.com/programmers/challenges/pairacoder_2022/>
 - <task-url>
 
 ## Versions
@@ -14,7 +14,7 @@
   - `OK`: Correctness 100%, Performance <100%.
   - `Fail`: Correctness <100%, Performance <100%.
 - File naming convention
-  - Code `A`: `Challenge2021A.java`
+  - Code `A`: `PairACoder2022A.java`
   - etc
 
 ### Gold Award

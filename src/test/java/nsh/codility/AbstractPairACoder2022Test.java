@@ -6,10 +6,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public abstract class AbstractChallenge2021Test {
-	abstract Challenge2021Interface getTestObject();
+public abstract class AbstractPairACoder2022Test {
+	abstract PairACoder2022Interface getTestObject();
 
-	Challenge2021Interface testObject;
+	PairACoder2022Interface testObject;
 
 	@BeforeEach
 	void setup() {
