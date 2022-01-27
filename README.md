@@ -1,9 +1,9 @@
 # Codility Challenge: Pair a Coder 2022
 
-## <Task Name>
+## RemoveSubstrings
 
-- Difficulty: <Difficulty>
-- <Description>
+- Difficulty: Hard
+- Given a string, calculate the length of the shortest string which can be achieved by removing any number of substrings that start and end with the same letter.
 - <https://app.codility.com/programmers/challenges/pairacoder_2022/>
 - <task-url>
 
@@ -19,6 +19,13 @@
 
 ### Gold Award
 
-| File | Complexity | Result | Report |
-| ---- | ---------- | ------ | ------ |
-| `A`  | `O( )`     | ` `    | [ ]()  |
+| File | Complexity | Result | Report                                                                            |
+| ---- | ---------- | ------ | --------------------------------------------------------------------------------- |
+| `B`  | `O(N)`     | `Good` | [MEBAJ9](https://app.codility.com/cert/view/certMEBAJ9-EMYY599BFW9UFUTU/details/) |
+
+### Silver Award
+
+| File | Complexity | Result | Report                                                                            |
+| ---- | ---------- | ------ | --------------------------------------------------------------------------------- |
+| `A`  | `O(N**2)`  | `OK`   | [SV8BP6](https://app.codility.com/cert/view/certSV8BP6-9GJ9S2BBWERE7FRU/details/) |
+
