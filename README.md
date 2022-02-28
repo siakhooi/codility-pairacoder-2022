@@ -5,7 +5,7 @@
 - Difficulty: Hard
 - Given a string, calculate the length of the shortest string which can be achieved by removing any number of substrings that start and end with the same letter.
 - <https://app.codility.com/programmers/challenges/pairacoder_2022/>
-- <task-url>
+- <https://app.codility.com/programmers/task/remove_substrings/>
 
 ## Versions
 
