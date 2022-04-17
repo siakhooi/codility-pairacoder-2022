@@ -29,3 +29,9 @@
 | ---- | ---------- | ------ | --------------------------------------------------------------------------------- |
 | `A`  | `O(N**2)`  | `OK`   | [SV8BP6](https://app.codility.com/cert/view/certSV8BP6-9GJ9S2BBWERE7FRU/details/) |
 
+### Codility Solutions
+
+| File | Complexity | Result | Report                                                              |
+| ---- | ---------- | ------ | ------------------------------------------------------------------- |
+| `C`  | `O(N**2)`  | `OK`   | [XH722P](https://app.codility.com/demo/results/trainingXH722P-5V5/) |
+| `D`  | `O(N)`     | `Good` | [Q6VA7D](https://app.codility.com/demo/results/trainingQ6VA7D-CYB/) |

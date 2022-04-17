@@ -1,9 +1,7 @@
 package nsh.codility;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -31,6 +29,7 @@ public abstract class AbstractPairACoder2022Test {
 	void test_sample(int E, String S) {
 		assertEquals(E, testObject.solution(S));
 	}
+
 	@ParameterizedTest
 	@CsvSource(textBlock = """
 			1,a
@@ -52,6 +51,7 @@ public abstract class AbstractPairACoder2022Test {
 
 		assertEquals(E, testObject.solution(S));
 	}
+
 	@Test
 	@DisplayName("A-Z*26")
 	void test_az_repeat() {
@@ -89,6 +89,7 @@ public abstract class AbstractPairACoder2022Test {
 
 		assertEquals(E, testObject.solution(S));
 	}
+
 	@ParameterizedTest
 	@CsvSource(textBlock = """
 			0,aaababbbabcaeacdafaddddad
@@ -109,7 +110,8 @@ public abstract class AbstractPairACoder2022Test {
 
 		assertEquals(E, testObject.solution(S));
 	}
-	@Test 
+
+	@Test
 	@DisplayName("a-d*")
 	void test_long_a_d() {
 		String S = "abcd".repeat(25000);
@@ -117,7 +119,8 @@ public abstract class AbstractPairACoder2022Test {
 
 		assertEquals(E, testObject.solution(S));
 	}
-	@Test 
+
+	@Test
 	@DisplayName("a-z*")
 	void test_long_a_z() {
 		String S = "abcdefghijklmnopqrstuvwxyz".repeat(3846);
